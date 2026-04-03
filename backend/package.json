@@ -1,7 +1,7 @@
 {
-  "name": "devtinder-backend",
+  "name": "nerivo-backend",
   "version": "1.0.0",
-  "description": "Tinder application for Devs",
+  "description": "Developer networking platform",
   "main": "index.js",
   "scripts": {
     "start": "node ./src/app.js",

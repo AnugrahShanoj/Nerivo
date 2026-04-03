@@ -1,4 +1,4 @@
-# Dev Tinder APIs
+# Nerivo APIs
 
 ## authRouter
 POST /signup
