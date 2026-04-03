@@ -102,7 +102,7 @@ const handleSignUp= async()=>{
           </div>
           <p className="text-red-500 font-bold">{error}</p>
           <div className="card-actions justify-center mt-3 px-3 ">
-            <button className="btn btn-primary" onClick={isLoginForm? handleLogin : handleSignUp}>Login</button>
+            <button className="btn btn-primary" onClick={isLoginForm? handleLogin : handleSignUp}>{isLoginForm? "Login" : "Sign Up"}</button>
           </div>
           <p className="m-auto pt-4 cursor-pointer" onClick={()=>setIsLoginForm((value)=> !value)}>{isLoginForm? "New User? SignUp Here" : "Existing User? Login Here"}</p>
         </div>
