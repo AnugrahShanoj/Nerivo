@@ -32,8 +32,8 @@ app.use("/",userRouter)
 connectDB().then(()=>{
     console.log("Database Connected Successfully...")
     // Listen to server
-    app.listen(3001,()=>{
-        console.log("Server Successfully Listening to 3001")
+    app.listen(process.env.PORT,()=>{
+        console.log("Server Successfully Listening to PORT")
     })
 })
 .catch((err)=>{
